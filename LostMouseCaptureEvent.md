@@ -21,5 +21,5 @@ Example:
 
 Well, we have the ability to compare that `Point` returned from the method `GetPositio` with the dimensions of the FrameworkElement.
 
-		![](/Images/LostMouseCapture Position View.png)
+![](/Images/FrameworkElementView.png)
 
