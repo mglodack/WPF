@@ -11,7 +11,7 @@ as [`LostMouseCapture`](https://msdn.microsoft.com/en-us/library/system.windows.
 
 This awesome event fires anytime a mouse clicks or attempts to capture focus of another space or element on the screen.
 This is sweet because we can use `e` from the parameters along with a method `GetPosition(IInputElement relativeTo)` in order
-to compare the position of the mouse with the locaiton of the [FrameworkElement](https://msdn.microsoft.com/en-us/library/system.windows.frameworkelement(v=vs.110).aspx).
+to compare the position of the mouse with relation to the locaiton of the [FrameworkElement](https://msdn.microsoft.com/en-us/library/system.windows.frameworkelement(v=vs.110).aspx).
 
 Example:
 
@@ -19,7 +19,6 @@ Example:
 	
 #### What does a FrameworkElement look like?
 
-Well, we have the ability to compare that `Point` returned from the method `GetPositio` with the dimensions of the FrameworkElement.
-
+Now that we have the value `position` which is of type `Point`, we can compare that with the dimensions of the FrameworkElement.
 ![](/Images/LostMouseCapture Position View.png)
 
