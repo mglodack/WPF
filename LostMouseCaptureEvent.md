@@ -20,5 +20,6 @@ Example:
 #### What does a FrameworkElement look like?
 
 Now that we have the value `position` which is of type `Point`, we can compare that with the dimensions of the FrameworkElement.
+
 ![](/Images/LostMouseCapture Position View.png)
 
