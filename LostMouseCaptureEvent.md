@@ -13,5 +13,5 @@ Most likely your code with look something like this ```var position = GetPositio
 `GetPosition` returns a `Point` with relation to where the current Mouse is, but now what?
 
 Well, we have the ability to compare that `Point` with the dimensions of the UIElement as shown below.
-![](/Images/LostMouseCapture Position View.png)
+		![](/Images/LostMouseCapture Position View.png)
 
